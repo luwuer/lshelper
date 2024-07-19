@@ -30,3 +30,21 @@ console.log(`
     Content size: ${statRet.usedContent / 1024}Kb\n
 `)
 ```
+
+### Usage by CDN
+```html
+<script src="https://cdn.jsdelivr.net/npm/lshelper/dist/lshelper.umd.cjs"></script>
+
+<script>
+const statRet = LsHelper.stat()
+
+console.log(`
+    Max size: ${statRet.total / 1024 / 1024}Mb\n
+    Used size: ${statRet.used / 1024 / 1024}Mb\n
+    Free size: ${statRet.free / 1024 / 1024}Mb\n
+    Used rate: ${(statRet.used / statRet.total) * 100}%\n
+    Key size: ${statRet.usedKey / 1024}Kb\n
+    Content size: ${statRet.usedContent / 1024}Kb\n
+`)
+</script>
+```
