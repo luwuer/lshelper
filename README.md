@@ -31,7 +31,7 @@ console.log(`
 `)
 ```
 
-### Usage by CDN
+Import via cdn: 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/lshelper/dist/lshelper.umd.cjs"></script>
 
