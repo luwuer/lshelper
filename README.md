@@ -1,4 +1,4 @@
-This is a utility library for local storage where you can measure the number of bytes that can be stored, the number of bytes already used, and the remaining bytes in the browser's local storage.
+The lshelper measure the total capacity, used bytes, and remaining bytes in the browser's localstorage.
 
 ### Install
 
